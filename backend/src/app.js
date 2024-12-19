@@ -4,12 +4,6 @@ const cors = require('cors');
 const morgan = require('morgan');
 require('dotenv').config();
 
-// backend/src/app.js
-const express = require('express');
-const cors = require('cors');
-const morgan = require('morgan');
-require('dotenv').config();
-
 // Import routes
 const employeeRoutes = require('./routes/hr/employee.routes');
 
